@@ -1,7 +1,7 @@
 # PlatformEngineering Practices
 
-GitOps
-IAC 
-K8S
-ArgoCD
-Automation
+1. GitOps
+2. IAC - Terraform
+3. K8S
+4. ArgoCD
+5. Automation & other Artifects
