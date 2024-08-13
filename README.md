@@ -13,3 +13,5 @@
 2. Terraform init
 3. Terraform apply
 4. Terraform plan
+5. Terraform destroy -target 
+6. Terrafrom output
