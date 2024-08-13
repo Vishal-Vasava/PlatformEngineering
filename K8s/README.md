@@ -8,25 +8,27 @@ JSON
 
 ## pod
 
-kubectl run nginix-pod --image=nginx
-kubctl api-resources | grep pods
-kubectl apply -f nginxpod.yaml
-kubectl get pods
-kubectl apply -f nginx-pod.yaml
-kubectl delete pod ngnix-pod1
-kubectl get pods -l team=integrations, app=orderup
-kubectl get pod nginx-pod1 -o wide
-kubectl describe pod nginx-pod1
-kubectl exex -it nginx-pod1 bash 
-kubectl port-forward nginx-pod1 8083:80
-kubectl logs nginx-pod1
-kubectl delete -f nginx-pod.yaml
-Kubetctl get po
+-  kubectl run nginix-pod --image=nginx
+- kubctl api-resources | grep pods
+- kubectl apply -f nginxpod.yaml
+- kubectl get pods
+- kubectl apply -f nginx-pod.yaml
+- kubectl delete pod ngnix-pod1
+- kubectl get pods -l team=integrations, app=orderup
+- kubectl get pod nginx-pod1 -o wide
+- kubectl describe pod nginx-pod1
+- kubectl exex -it nginx-pod1 bash 
+- kubectl port-forward nginx-pod1 8083:80
+- kubectl logs nginx-pod1
+- kubectl delete -f nginx-pod.yaml
+- Kubetctl get po
 
 ## ReplicaSets & Deployments
 1. Self Healing
 2. High Availability
 3. Roll out and roll back
+
+ReplicaSets will be available all the times. 
 
 ## Services
 
