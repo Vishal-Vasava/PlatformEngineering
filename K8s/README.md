@@ -24,11 +24,16 @@ JSON
 - Kubetctl get po
 
 ## ReplicaSets & Deployments
-1. Self Healing
+1. Self Healing = if pod gets deleted, replicaset will create another pod
 2. High Availability
 3. Roll out and roll back
 
-ReplicaSets will be available all the times. 
+- kubectl apply -f nginx-replicaset.yaml
+- Kubectl get po
+- minicube  get node add --worker -p local-cluster
+- kubectl get po -o wide
+- minikube node delete local-cluster-m02 -p local-cluster
+
 
 ## Services
 
