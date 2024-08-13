@@ -1,2 +1,2 @@
-# Let us build Internal Developers Platform
- 
+# Let us build Internal Developers Platform (IDP)
+
