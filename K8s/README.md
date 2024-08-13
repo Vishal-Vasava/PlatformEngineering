@@ -16,13 +16,20 @@ kubectl apply -f nginx-pod.yaml
 kubectl delete pod ngnix-pod1
 kubectl get pods -l team=integrations, app=orderup
 kubectl get pod nginx-pod1 -o wide
+kubectl describe pod nginx-pod1
+kubectl exex -it nginx-pod1 bash 
+kubectl port-forward nginx-pod1 8083:80
+kubectl logs nginx-pod1
+kubectl delete -f nginx-pod.yaml
+Kubetctl get po
+
+## ReplicaSets & Deployments
+1. Self Healing
+2. High Availability
+3. Roll out and roll back
+
+## Services
 
 
-
-
-1. Services
-2. Ingress
-3. 
-4. 
-5. 
+## Ingress
 
