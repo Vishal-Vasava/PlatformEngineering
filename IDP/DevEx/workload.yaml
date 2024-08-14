@@ -1,0 +1,12 @@
+apiVersion : orderup.run/v1alpha1
+kind : Workload
+metadata:
+  name: ordering-service
+  labels:
+    app.orderup.io/workload-type:web
+  spec:
+    source:
+      git:
+        url: <path to git of ordering-service>
+        ref:
+          branch:main
