@@ -4,6 +4,7 @@ metadata:
   name: multi-port-service
   namespace: nginx
 spec:
+  type: NodePort / loadbalancer
   selector:
     app: nginx
   ports:

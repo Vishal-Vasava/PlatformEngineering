@@ -51,15 +51,19 @@ JSON
 - Service Discovery and Zero downtime deployments
 - Service Type = ClusterIP vs NodePort vs LoadBalancer
 - Labels for many pods with selectors 
+- NodePort ? 
+
 
 #### commands
-- kubctl apply -f ngnix-service.yaml
-- kubctl get po
-- kubctl exec -it nginx <podname> --sh
+- kubectl apply -f ngnix-service.yaml
+- kubectl get po
+- kubectl exec -it nginx <podname> --sh
 - curl nginx-service:8082
 - kubectl port-forward serfice/nginx-service 8083:8082
 
 #### Generate load for load balancing test
+Multiple services are helpful  for sidecar
+
 - kubctl get po
 - kubectl exec -it <podname> -- sh 
 / # i=1
@@ -68,8 +72,40 @@ JSON
 >       i=$((i+1))
 > done
 
-- kubctl logs <podname> -f
+- kubectl logs <podname> -f
+- kubectl get endpoints
+- kubectl describe service/nginx-serice
 
 
 ## Ingress
+- Load Balancer + NodePort works in only cloud environments. New load balancer per service increase cost. 
+- Bare Metal entry points need proxy server 
+- "which request should go to which service" is ingress
 
+## Namespace
+
+
+## Volumes
+
+
+## statefulsets - MongoDB Cluster
+
+
+## ConfigMaps and Secrets
+
+
+## Autoscaling
+
+
+## Advanced Scheduling
+
+
+## RBAC
+
+## Autoscaling in Kubernetes
+
+
+## DaemonSets in Kubernetes
+
+
+## Jobs and CroneJobs
