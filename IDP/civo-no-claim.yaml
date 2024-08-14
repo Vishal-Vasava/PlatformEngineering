@@ -1,0 +1,14 @@
+apiVersion : v1
+kind: CompositeCluster
+metadata 
+  name: a-team
+  labels:
+    cluster-owner:vfarcic
+spec:
+  id: a-team
+  compositionRef: 
+    name: cluster-civo
+  parameters:
+    nodesize: small
+    minNodeCount: 1
+    
