@@ -52,5 +52,11 @@ JSON
 - Service Type = ClusterIP vs NodePort vs LoadBalancer
 - Labels for many pods with selectors 
 
+### commands
+- kubctl apply -f ngnix-service.yaml
+- kubctl get po
+- kubctl exec -it nginx <podname> --sh
+- curl nginx-service:8082
+
 ## Ingress
 
