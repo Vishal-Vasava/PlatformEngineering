@@ -3,7 +3,7 @@ kind: CompositeCluster
 metadata 
   name: a-team
   labels:
-    cluster-owner:vfarcic
+    cluster-owner:vasava
 spec:
   id: a-team
   compositionRef: 
@@ -11,4 +11,3 @@ spec:
   parameters:
     nodesize: small
     minNodeCount: 1
-    
