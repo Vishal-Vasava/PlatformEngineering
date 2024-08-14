@@ -49,7 +49,8 @@ JSON
 - services are not node-specific, so they can point to pods regardless of where the pods are running in the cluster. 
 - Load Balancing act
 - Service Discovery and Zero downtime deployments
-
+- Service Type = ClusterIP vs NodePort vs LoadBalancer
+- Labels for many pods with selectors 
 
 ## Ingress
 
