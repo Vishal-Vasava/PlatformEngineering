@@ -57,6 +57,19 @@ JSON
 - kubctl get po
 - kubctl exec -it nginx <podname> --sh
 - curl nginx-service:8082
+- kubectl port-forward serfice/nginx-service 8083:8082
+
+#### Generate load for load balancing test
+- kubctl get po
+- kubectl exec -it <podname> -- sh 
+/ # i=1
+/ # while [ "$i" -le 20 ]; do
+>       curl nginx-service:8082
+>       i=$((i+1))
+> done
+
+- kubctl logs <podname> -f
+
 
 ## Ingress
 
