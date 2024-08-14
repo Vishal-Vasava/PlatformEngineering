@@ -36,10 +36,19 @@ JSON
 ### Roll out and roll back
 - kubectl apply -f nginx-deployment.yaml
 - kubectl get po --show-labels
-
-
+- CHANGE-CAUSE
+- kubectl rollout undo deplopyment/nginx-deployemt.yaml --revision_version=1
 
 ## Services
+
+- Pod IPs are dynamic
+- Portforwarding is only meant for debugging and only available on local machine
+- Abstract pod IP from main address
+- Service IP address doesnt change until service exists
+- Service will take care of routing to appropriate pod
+- services are not node-specific, so they can point to pods regardless of where the pods are running in the cluster. 
+- Load Balancing act
+- Service Discovery and Zero downtime deployments
 
 
 ## Ingress
