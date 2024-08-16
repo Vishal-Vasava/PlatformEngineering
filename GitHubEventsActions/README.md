@@ -2,9 +2,9 @@
 
 # *************************************************************
 
-![git-flow-768x513](https://user-images.githubusercontent.com/14274827/91470661-9d5a8780-e8b2-11ea-9ccb-0d813d2e35d1.png)
+![git-flow-768x513](https://github.com/Vishal-Vasava/PlatformEngineering/blob/main/GitHubEventsActions/gitpic.png)
 
-![git-flow-768x513] (./gitpic.png)
+
 # *************************************************************
 
 ## $git config
