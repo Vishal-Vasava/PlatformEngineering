@@ -4,7 +4,7 @@
 
 ![git-flow-768x513](https://github.com/Vishal-Vasava/PlatformEngineering/blob/main/GitHubEventsActions/gitpic.png)
 
-
+Thanks pushpank@gmail.com - saved me effort.
 # *************************************************************
 
 ## $git config
