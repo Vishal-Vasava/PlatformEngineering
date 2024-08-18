@@ -34,13 +34,15 @@
 - Lock Management
 - Recovery Manager
 
+#### Shard Manager
 
 #### Concurrency Manager 
 - Multi version concurrency control (MVCC)
 
 
 #### Storage Engine
+- Disk storage manager 
+- Buffer Manager 
+- index Manager
 
-#### Disk storage manager 
-
-#### Buffer Manager 
+#### Interaction Layer 
