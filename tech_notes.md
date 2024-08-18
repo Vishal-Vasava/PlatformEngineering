@@ -34,7 +34,7 @@
 - Lock Management
 - Recovery Manager
 
-#### Shard Manager
+#### Shard Manager, Cluster Manager, Replication Manager
 
 #### Concurrency Manager 
 - Multi version concurrency control (MVCC)
