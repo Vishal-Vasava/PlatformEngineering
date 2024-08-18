@@ -2,7 +2,7 @@
 
 ## Arch Types, Patterns
 
-## HTTPS Response Codes
+## HTTP Response Codes
 - 100 : Continue
 - 101 : Protocol Change
 - 200 :
@@ -18,8 +18,15 @@
 ## Swagger 
 
 ## Database Internals
-- Tokenizer
-- Parser
-- Optimizer
+### Front End of Database
+- Tokenizer : Check if keywords are  valid or not.
+- Parser : checks if Instruction is valid.
+- Optimizer: Determine the best way to execute query. 
+
+### Back End Component of Database
+#### Execution Engine 
+- Query Executor
+- Cache Management 
+- utility Services - AUTH, SEC, BACKUP, METRICS
 
 
