@@ -29,4 +29,18 @@
 - Cache Management 
 - utility Services - AUTH, SEC, BACKUP, METRICS
 
+#### Transaction Manager
+- ACID properties adherence 
+- Lock Management
+- Recovery Manager
 
+
+#### Concurrency Manager 
+- Multi version concurrency control (MVCC)
+
+
+#### Storage Engine
+
+#### Disk storage manager 
+
+#### Buffer Manager 

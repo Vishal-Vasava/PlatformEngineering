@@ -34,3 +34,6 @@ Security Incident Notifications: Automating alerting through Slack, Microsoft Te
 Collaboration Tools Integration: Automating the integration of security tools with project management and communication platforms like Jira, Confluence, and GitHub.
 ## 10. Container Orchestration Security
 Kubernetes Security Automation: Automating security tasks within Kubernetes using tools like Kube-bench, Kube-hunter, or Falco to monitor and secure container orchestration.
+
+
+
