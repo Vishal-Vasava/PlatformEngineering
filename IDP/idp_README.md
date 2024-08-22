@@ -5,7 +5,7 @@
 - EKS
 - AKS
 - GKE
-- Digital OCen
+- Digital Ocean
 
 ## Platform Capabilities
 
